@@ -10,7 +10,7 @@ img {
 
 .nav {
     position: absolute;
-    width: 300px;
+    width: 200px;
     height: 100%;
     overflow-x: hidden;
     overflow-y: auto;
@@ -21,9 +21,9 @@ img {
 .right {
     position: absolute;
     height: 100%;
-    width: calc(100% - 300px);
+    width: calc(100% - 200px);
     overflow-x: hidden;
-    left: 300px;
+    left: 200px;
 }
 
 iframe {
