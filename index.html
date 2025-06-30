@@ -23,6 +23,8 @@
 		<li><a href="#reading">/reading</a></li>
 		<li><a href="#writing">/writing</a></li>
 
+		<p id="today-date"></p>
+
 	</div>
 
 	<!--Right-->
@@ -49,6 +51,19 @@
 			<iframe src="writing/index.html"></iframe>
 		</div>
 	</div>
+
+<script>
+  const dateElement = document.getElementById('today-date');
+
+  const today = new Date();
+
+  const options = { year: 'numeric', month: 'long', day: 'numeric' };
+  const formatted = today.toLocaleDateString('en-US', options);
+
+
+  dateElement.textContent = `today is ${formatted}`;
+</script>
+
 
 </body>
 </html>
