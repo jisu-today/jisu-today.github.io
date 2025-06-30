@@ -87,4 +87,8 @@ li {
     top: 100px;
 }
 
+#today-date {
+    display: none;
+}
+
 }
